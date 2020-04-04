@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="421dp"
+        android:layout_height="733dp"
+        android:background="#EDF4FD14"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="356dp"
+            android:layout_marginBottom="460dp"
+            android:text="Я"
+            android:textColor="#FB0202"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/login_view"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="429dp"
+            android:layout_marginEnd="80dp"
+            android:backgroundTint="#EDF4FD14"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="188dp"
+            android:layout_marginBottom="178dp"
+            android:text="Я не помню свой логин"
+            android:textColor="#113f54" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="79dp"
+            android:layout_marginBottom="116dp"
+            android:background="#f2f411"
+            android:text="Далее"
+            android:textColor="#040405"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginBottom="464dp"
+            android:text="НДЕКС"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="183dp"
+            android:layout_marginBottom="304dp"
+            android:text="Логин,почта или телефон" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="688dp"
+            android:text="Зарегистрироваться"
+            android:textColor="#113f54"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="237dp"
+            android:layout_marginBottom="67dp"
+            android:text="Войти через соцсети"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="331dp"
+            android:layout_marginBottom="241dp"
+            android:text="Пароль" />
+
+        <EditText
+            android:id="@+id/password_view"
+            android:layout_width="299dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="203dp"
+            android:backgroundTint="#FFE500"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="33dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="347dp"
+            android:layout_marginBottom="23dp"
+            app:srcCompat="@drawable/google" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="33dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="302dp"
+            android:layout_marginBottom="24dp"
+            app:srcCompat="@drawable/iconfin" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="33dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/ic" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="33dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="206dp"
+            android:layout_marginBottom="26dp"
+            android:background="#FFFFFF"
+            android:text="•••"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    " />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>
